@@ -4,9 +4,200 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cheat Sheet</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <h2>a.- <Hyperlinks></h2>
+<header>
+    <div class="logo">Tarea 1</div>
+</header>
     
+
+<article>
+    <header>
+        <h1>Cheat Sheet</h1>
+        <time>06.04.2023</time>
+    </header>
+    <p><small>Descripcion de las etiquetas de html</small></p>
+</article>
+
+    <section><h2>a.- Hyperlinks></h2>
+        <p>Los hipervínculos permiten vincular documentos a otros documentos
+            o recursos entre paginas web y recursos en línea. Atreves de un enlace.</p>
+        <p>Por ejemplo de esto es deja un enlace de una canción como la siguiente <a href="https://www.youtube.com/watch?v=ZNzYr4U7Zs8&list=RDMMd0RmRJsgP28&index=13"> Cuando Pase el Temblor de Soda Stereo</a></p>
+    </section>
+
+    <section>
+        <h2> p.- Parrafo</h2>
+        <p>Los párrafos se emplean para la agrupación de palabras, elementos de HTML como imágenes , listas, enlaces, etc. Permitiendo que el formato de los contenidos sea más estructurado.</p>
+        <p> Ejemplo de ello: “Si vis pacem, para bellum”, “si quieres la paz, prepárate para la guerra”. Frase de Publio Flavio Vegecio</p>
+    </section>
+
+    <section>
+    <h2>h1,h2,...,h6.- Encabezados</h2>
+        <p>Los encabezados son utilizados en HTML para la definición de títulos y subtítulos 
+            en un pagina web. Dónde viene por niveles donde el “h1” es el mas grande  de todos y el ultimo de ellos el “h6” es el mas pequeño.</p>
+        Ejemplo:
+        <h1>Encabezado nivel 1</h1>
+        <h2>Encabezado nivel 2</h2>
+        <h3>Encabezado nivel 3</h3>
+        <h4>Encabezado nivel 4</h4>
+        <h5>Encabezado nivel 5</h5>
+        <h6>Encabezado nivel 6</h6>
+    </section>
+
+    <section>
+    <h2>div.- Contenedor de bloque</h2>
+    <p>Los div son contendedores, capaces de almacenar cualquier tipo 
+        de elementos y donde se puede aplicarles un estilo en conjunto. 
+        Donde realmente sirve para dividir o seleccionar el contenido en bloques.
+        Donde sean manipulados por separado.</p> 
+        <p>Ejemplo de codigo:</p>
+        <pre>
+            <code>
+            &lt;div=”contenedor”&gt;
+                &lt;h3&gt; Imagen de resident evil 4 remake &lt;/h3&gt;
+                &lt;p&gt; leon y Ashley siendo atacados por los ganados &lt;/p&gt;
+                &lt; src= "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2023/03/24/16796882612307.jpg"  
+                width="700"
+                height="550"
+                alt= "Resident evil 4 remake"&gt;
+            &lt;/div&gt;
+            </code>
+        </pre>
+        <p>Como se veria en una pagina web</p>
+        <div class="contenedor">
+            <h3>Imagen de resident evil 4 remake</h3>
+            <p>leon y Ashley siendo atacados por los ganados.</p>
+            <img src= "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2023/03/24/16796882612307.jpg"  
+            width="700"
+            height="550"
+            alt= "Resident evil 4 remake"
+            >
+            <div class="links"><a href="https://youtu.be/AxxoBZzPC9U?t=37"> banda sonora de Resident evil 4</a></div>
+        </div>
+    </section>
+
+    <section>
+    <h2>span.- Contenedor de linea</h2>
+        <p>Es un contenedor en línea, donde su uso es en los párrafos para la aplicación
+        de estilos o agrupar elementos en línea, en lugares específicos del texto.
+        <br><br> Ejemplo del mismo:</p>
+        <p>Es un mismo parrafo<span style="color: cyan;"> y esto un span dentro del párrafo. </span></p>
+    </section>
+
+    <section>
+        <h2>strong.- texto mayor importancia</h2>
+        <p>Dentro de su contenido resalte la gran importancia en término semántico, seriedad o urgencia. Suelen resaltar en negritas.
+            <br><br>Ejemplo es el siguiente:<br><br> El juego no tiene el sistema de autoguardado, así que <strong>no se le olvide guarda su partida.</strong>
+        </p>
+    </section>
+
+    <section>
+        <h2>i.- Cursiva</h2>
+        <p>Cuando se usa indica que su contenido debe mostrarse en cursiva, mayormente cuando se usa una lengua extranjera.
+        <br><br>Ejemplo:<br><br>Para escribir poder imprimir alguna cosa en <i>python</i> se utiliza <i>print</i></p>
+    </section>
+
+    <section>
+        <h2>u.- Subrayado</h2>
+        <p>Este elemento sirve para que el intervalo
+            del texto seleccionado se muestre subrayado<br><br>Ejemplo:<br><br>Al morir en la partida,siempre reaparecerás en el ultimo punto de <u>guardado</u></p>
+    </section>
+
+    <section>
+        <h2>b.- Negritas</h2>
+        <p>Solamente se utiliza para llamar la atención del contenido al lector,
+            no da importancia semántica, como seria el strong<br><br>Ejemplo:<br><br>Vive con <b>orgullo</b> y la cabeza <b>alta</b></p>
+    </section>
+
+    <section>
+        <h2>strike/del.- Tachador</h2>
+        <p>El elemento strike se utilizaba para tachar texto,
+            sin embargo se ha vuelto obsoleto de usar ya que ya la mayoría de los navegadores
+            de web ya no son compatibles con esta etiqueta, aun siendo que HTML 5 lo acepte.
+            En cambio se utiliza del siendo semejante la función de tachar texto.
+            <br><br>Ejemplo con strike y del:<br><br><strike>Estoy usando strike</strike>  |  <del>Yo estoy usando del</del></p>
+    </section>
+
+    <section>
+        <h2>small.- Comentario lateral</h2>
+        <p>La etiqueta se utiliza para indicar que el texto dentro de contenido se debe mostrar con una fuente más pequeña a la que se esta utilizando, 
+            mayormente utilizando como texto secundario o pies de páginas.
+            <br><br>Ejmeplo:<br><br>pagina de mdn web docs<br><u><small>aviso de privacidad del sitio web</small></u></p>
+    </section>
+
+    <section>
+        <h2>em.- Enfatizar texto</h2>
+        <p>Se utiliza para para enfatizar texto, a diferencia con i, 
+            em representa el énfasis del estrés de su contenido.<br><br> 
+            Ejemplo:<br><br> Ahora me he convertido en la muerte, el <em>destructor de mundos</em></p>
+     </section>  
+
+    <section>
+        <h2>header.- Encabezado</h2>
+        <p>Representa el contenido introductorio, por lo general se incluye titulo de la pagina,navegación principal, la información del autor o cualquier otra información que se considere importante poner al inicio.Siendo el ejemplo seria el inicio de esta pagina web donde se ver implementado el uso del header
+            <br><br>Si lo queremos ver el header de nuestra pagina web se veria de esta forma:
+        </p>
+        <pre>
+            <code>
+                &lt;/header&gt;
+
+                &lt;article&gt;
+                    &lt;header&gt;
+                    &lt;h1&gt;Cheat Sheet&lt;/h1&gt;
+                    &lt;time&gt;06.04.2023&lt;/time&gt;
+                    &lt;/header&gt;
+                    &lt;p&gt;&lt;small&gt;Descripcion de las etiquetas de html&lt;/small&gt;&lt;/p&gt;
+                &lt;/article&gt;
+            </code>
+        </pre>
+    </section> 
+
+    <section>
+        <h2>section.- Secciones</h2>
+        <p>Es utilizado para separar lógicamente un documento, que trata de un tema en específico. Donde divide el contenido de la pagina en secciones, lo que ayuda a organizar y estructurar el contenido.
+            <br><br> ejemplo del mismon esta en nuestra pagina web de la siguiente manera
+        </p>
+        <pre>
+            <code>
+                &lt;section&gt;
+                  &lt;h2&gt;small.- Comentario lateral&lt;/h2&gt;
+                  &lt;p&gt;La etiqueta se utiliza para indicar que el texto dentro de contenido se debe mostrar con una fuente más pequeña a la que se esta utilizando, 
+                    mayormente utilizando como texto secundario o pies de páginas.
+                    &lt;br&gt;&lt;br&gt;Ejmeplo:&lt;br&gt;&lt;br&gt;pagina de mdn web docs&lt;br&gt;&lt;u&gt;&lt;small&gt;aviso de privacidad del sitio web&lt;/small&gt;&lt;/u&gt;&lt;/p&gt;
+                &lt;/section&gt;
+              </code>
+        </pre>
+    </section>
+
+    <section>
+        <h2>article.- Articulo</h2>
+        <p>Representa una composición autónoma en un documento, página web. Destinado a ser distribuible o reutilizado independientemente.
+            Dónde debe ser utilizado para información o elementos más importante de la pagina.<br><br>Ejemplo:</p>
+        <article>
+            <header>
+                <h1>Desbloquea el cuchillo infinito de Residente evil 4 Remake</h1>
+                <p>
+                    Publicado el 
+                    <time>05.04.2023</time>
+                </p>
+            </header>
+            <p>Para poder desbloquea el cuchillo primario de león, se debe de romper los 16 muñecos  de Ramón Salazar, que están repartidos por todo el mapa del juego desde la aldea de los ganados, el castillo de Salazar y la isla. En total de los muñecos son 16, que al romper todos y terminar la campaña se nos desbloqueara el cuchillo.</p>
+            <p>link del video mas detallado <a href="https://youtu.be/jArvr4jr_Cs">click aqui</a></p>
+        </article>                
+    </section>
+
+    <section>
+       <h2>aside.- Elemento aparte </h2> 
+       <p>Se usa para representar contenido relacionado con el documento principal, pero que no estar necesariamente en el flujo de la información. Apareciendo en una barra latera.
+        <br><br>Ejemplos:
+       </p>
+       <aside>
+        <p>Siendo que el original cuente con solo 4 personajes jugables</p>
+       </aside>
+       <p>El viernes 7 de abril del 2023 sale el nuevo modo de juego mercenarios de resident evil 4 remake, siendo una expasion gratis para todos aquellos jugadores que posean la copia. Con 6 personajes jugables</p>
+    </section>
+
+
 </body>
 </html>

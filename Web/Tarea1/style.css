@@ -1,0 +1,35 @@
+.logo {
+
+    display: flex;
+    height: 120px;
+    align-items: center;
+    justify-content: center;
+    font:  calc(1em + 5 * (100vw - 12px) / 100) 'Dancing Script', fantasy;
+    color: black;
+}
+
+header > h1 {
+    margin-bottom: 5;
+}
+
+header > time {
+    font: italic 0.7rem sans-serif;
+}
+
+aside {
+    width: 25%;
+    padding-left: 0.5rem;
+    margin-left: 0.8rem;
+    float: right;
+    box-shadow: inset 5px 0 5px -5px #29627e;
+    font-style: italic;
+    color: #29627e;
+}
+
+aside > p {
+    margin: 0.5rem;
+}
+
+p {
+    font-family: 'Fira Sans', sans-serif;
+}
