@@ -1,0 +1,20 @@
+/*Selector, los tags*/
+
+h1{ 
+    /*Atributos */
+    color: rgb(12, 99, 198);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+h2{
+    color: #fC63c6;
+}
+
+#Second{
+    color:#dC00ff;
+}
+
+.container{
+    border: 4px black solid;
+}
