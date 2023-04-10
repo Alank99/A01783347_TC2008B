@@ -5,7 +5,7 @@
     align-items: center;
     justify-content: center;
     font:  calc(1em + 5 * (100vw - 12px) / 100) 'Dancing Script', fantasy;
-    color: black;
+    color: whitesmoke;
 }
 
 header > h1 {
@@ -36,8 +36,8 @@ p {
 
 hr {
     border: none;
-    border-top: 3px double #333;
-    color: #333;
+    border-top: 3px double #fffafa;
+    color: white;
     overflow: visible;
     text-align: center;
     height: 5px;
@@ -70,7 +70,7 @@ label {
 }
 
 table{
-    border: lpx solid black;
+    border: lpx rgb(130, 126, 126, 0.726) solid;
     border-collapse: collapse;
     width: 80%;
 }
@@ -81,4 +81,15 @@ th, td{
 
 th{
     text-align: left;
+}
+
+body {
+    background-color: #333;
+    color: #fff;
+}
+
+.indx{
+    border: 4px cadetblue solid;
+    margin: 10px;
+    padding: 10px;
 }
