@@ -23,4 +23,193 @@ h2{
 
 body{
     margin: 0;
+    background-color: rgb(44, 43, 43);
+    color: whitesmoke;
+}
+
+#borde{
+    border: 4px cyan solid;
+    background-color: black;
+    margin: 50px;
+    padding: 10px;
+
+}
+
+#borde-lado{
+    border-left: 4px green groove;
+    border-right: 5px #dC00ff ridge;
+    border-bottom: 5px rgb(6, 41, 108) inset;
+    border-top: 4px indigo dashed;
+    background-color: black;
+    margin: 50px;
+    padding: 10px;
+}
+
+#radius{
+    border: 4px purple solid;
+    border-radius: 30px;
+    background-color: black;
+    margin: 50px;
+    padding: 10px;
+}
+
+#back-img{
+    background-image: url("https://i.ytimg.com/vi/tGKOqrnR59I/maxresdefault.jpg");
+    background-position: -15 -60;
+    margin: 50px;
+    padding: 10px;
+}
+
+#colo{
+    color: yellowgreen;
+    border: 4px rgba(8, 230, 156, 0.654) solid;
+    border-radius: 30px;
+    background-color: black;
+    margin: 50px;
+    padding: 10px;
+}
+
+#font-family{
+    color: rgb(255, 255, 255);
+    border: 4px rgba(11, 243, 236, 0.654) solid;
+    border-radius: 30px;
+    background-color: black;
+    font-family:sans-serif , 'Times New Roman', serif;
+    margin: 50px;
+    padding: 10px;
+}
+
+#font-st{
+    color: rgb(255, 255, 255);
+    border: 4px rgba(243, 11, 131, 0.867) solid;
+    border-radius: 30px;
+    background-color: black;
+    font-family:sans-serif , 'Times New Roman', serif;
+    margin: 50px;
+    padding: 10px;
+    font-style: oblique 10deg;
+    font-weight: 700;
+}
+
+#wi-he{
+    color: rgb(255, 255, 255);
+    border: 4px rgba(23, 11, 243, 0.995) solid;
+    border-radius: 30px;
+    width: 100px;
+    height: 250px;
+    background-color: black;
+    font-family:sans-serif , 'Times New Roman', serif;
+    margin: 50px;
+    padding: 10px;
+}
+
+#list-st{
+    color: rgb(255, 255, 255);
+    border: 4px rgba(243, 11, 131, 0.867) solid;
+    border-radius: 30px;
+    background-color: black;
+    font-family:sans-serif , 'Times New Roman', serif;
+    margin: 50px;
+    padding: 10px;
+}
+
+.one{
+    color: aqua;
+    list-style:inside square;
+}
+
+#marge{
+    color: rgb(255, 255, 255);
+    border: 4px rgba(100, 243, 11, 0.881) solid;
+    border-radius: 30px;
+    background-color: black;
+    margin: 50px;
+    padding: 10px;
+}
+
+#e1{
+    border:4px #00c3ff9a solid;
+    color: aqua;
+    background-color: rgb(101, 101, 101);
+    margin:45px;
+}
+
+#e2{
+    border:4px #2fff009a solid;
+    color: aqua;
+    background-color: rgb(101, 101, 101);
+    margin:100px;
+}
+
+#padding{
+    color: rgb(255, 255, 255);
+    border: 4px rgba(203, 235, 183, 0.881) solid;
+    border-radius: 30px;
+    background-color: black;
+    margin: 50px;
+    padding: 100px;
+}
+
+#overflow{
+    color: rgb(255, 255, 255);
+    border: 4px rgba(255, 10, 10, 0.881) solid;
+    border-radius: 30px;
+    background-color: black;
+    margin: 50px;
+    padding: 50px;
+    overflow: auto;
+}
+
+
+#display{
+    color: rgb(255, 255, 255);
+    border: 4px rgba(53, 101, 23, 0.881) solid;
+    border-radius: 30px;
+    background-color: black;
+    margin: 50px;
+    padding: 20px;
+}
+
+#ejemplo{
+    width: 900px;
+    height: 100px;
+    color: #dC00ff;
+}
+
+#ejemplo2{
+    display:flex;
+    color: #c970d7;
+}
+
+#position{
+    color: rgb(255, 255, 255);
+    border: 4px rgba(223, 86, 173, 0.881) solid;
+    border-radius: 30px;
+    background-color: black;
+    margin: 150px;
+    padding: 20px;
+}
+
+#imagen{
+    position: relative;
+    left:190;
+}
+
+#filter{
+    color: rgb(255, 255, 255);
+    border: 4px rgba(20, 184, 239, 0.881) solid;
+    border-radius: 30px;
+    background-color: black;
+    margin: 150px;
+    padding: 20px;
+}
+
+#imagen2{
+    position: relative;
+    left: 290;
+    filter: blur(0.5px);
+    filter: brightness(1.5);
+    filter: contrast(120%);
+    filter:hue-rotate(50deg);
+    
 }
