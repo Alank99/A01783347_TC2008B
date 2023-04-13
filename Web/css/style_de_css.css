@@ -2,8 +2,8 @@
 
 h1{ 
     /*Atributos */
-    color: rgb(12, 99, 198);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(47, 255, 252);
+    font-family: 'Times New Roman', Times, serif;
 }
 
 
@@ -212,4 +212,29 @@ body{
     filter: contrast(120%);
     filter:hue-rotate(50deg);
     
+}
+
+#titulo{
+    display: flex;
+    height: 120px;
+    align-items: center;
+    justify-content: center;
+    font:  calc(1em + 5 * (100vw - 12px) / 100) 'Dancing Script', fantasy;
+    color: rgb(227, 7, 239);
+}
+
+#indx{
+    border: 4px rgb(20, 184, 102) dotted;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 10px;
+    background-color: black;
+}
+
+.ind{
+    color: #dC00ff;
+}
+
+a{
+    color:#36e536;
 }
