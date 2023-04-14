@@ -1,5 +1,6 @@
 body{
     background-color: rgb(44, 43, 43);
+    font-family: 'Times New Roman', Times, serif;
     color: whitesmoke;
 }
 #t1{
@@ -8,4 +9,12 @@ body{
 
 #t2{
     color: blueviolet;
+}
+
+#t3{
+    color: crimson;
+}
+
+a{
+    color:greenyellow;
 }
