@@ -1,20 +1,100 @@
-body{
-    background-color: rgb(44, 43, 43);
+*{
     font-family: 'Times New Roman', Times, serif;
-    color: whitesmoke;
+    box-sizing: border-box;
 }
-#t1{
-    color: rgb(14, 235, 198);
-}
-
-#t2{
-    color: blueviolet;
+body{
+    margin:0;
+    padding: 0;
+    background-color: rgba(57, 57, 57, 0.958);
 }
 
-#t3{
-    color: crimson;
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    background-image: url("https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2023/03/24/16796882612307.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 100%;
+    padding: 250px;
+    color: white;
 }
 
-a{
-    color:greenyellow;
+.container p{
+    margin-left: 15%;
+    margin-right: 15%;
+    font-weight: bold;
+}
+
+.flex_container{
+    display: flex;   
+    flex-direction: column;
+}
+
+.nav-bar{
+    
+    padding:10px;
+    display: flex;
+    justify-content: center;
+    background-color: #020202cb;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+
+.nav-bar #menu{
+    flex-grow: 110;
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.menu p{
+    padding-left: 1pc;
+}
+
+
+#container3{
+    padding:8px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+    background-color: rgb(0, 0, 0);
+
+}
+
+.item{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin:10px;
+}
+
+
+#container4{
+    padding:25px;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    background-color: #3d3b3b;
+    color: white;
+}
+
+.neon{
+    font-weight: 500;
+    color: #d79bde;
+    text-shadow: 0 0 5px #c707ed,
+    0 0 25px #f403e0, 
+    0 0 50px #0a5d9d,
+    0 0 100px #21e8da;
+    letter-spacing: 5px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.item a{
+    color: #21e8da;
 }
