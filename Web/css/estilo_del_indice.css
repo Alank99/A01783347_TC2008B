@@ -19,6 +19,8 @@ body{
     height: 100%;
     padding: 250px;
     color: white;
+    margin-bottom: 0px;
+    min-width: 250px;
 }
 
 .container p{
@@ -30,6 +32,8 @@ body{
 .flex_container{
     display: flex;   
     flex-direction: column;
+    min-width: 250px;
+
 }
 
 .nav-bar{
@@ -40,22 +44,8 @@ body{
     background-color: #020202cb;
     color: rgb(0, 0, 0);
     font-weight: bold;
+     min-width: 250px;
 }
-
-
-.nav-bar #menu{
-    flex-grow: 110;
-}
-.menu{
-    display: flex;
-    justify-content: space-around;
-
-}
-
-.menu p{
-    padding-left: 1pc;
-}
-
 
 #container3{
     padding:8px;
@@ -63,6 +53,8 @@ body{
     justify-content: space-evenly;
     align-items: baseline;
     background-color: rgb(0, 0, 0);
+    margin-bottom: 0px;
+    min-width: 250px;
 
 }
 
@@ -71,6 +63,7 @@ body{
     align-items: center;
     flex-direction: column;
     margin:10px;
+
 }
 
 
@@ -81,6 +74,8 @@ body{
     justify-content: center;
     background-color: #3d3b3b;
     color: white;
+    margin-bottom: 0px;
+    min-width: 250px;
 }
 
 .neon{
