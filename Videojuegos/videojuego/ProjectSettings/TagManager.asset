@@ -40,4 +40,13 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 1
+  - name: forground
+    uniqueID: 1187329475
+    locked: 0
+  - name: player
+    uniqueID: 640655831
+    locked: 0
+  - name: balls
+    uniqueID: 1055507575
     locked: 0
