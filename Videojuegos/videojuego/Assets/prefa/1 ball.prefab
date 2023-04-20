@@ -26,8 +26,8 @@ Transform:
   m_GameObject: {fileID: 5082636406689358757}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -9.39, y: 9.51, z: 0.05151411}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 0.32, y: 0.32, z: 0.32}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 5082636406884019570}
   - {fileID: 5082636406938389049}
@@ -53,7 +53,7 @@ Rigidbody2D:
   m_Material: {fileID: 6200000, guid: 836d10f36340a814a89153335a3ca686, type: 2}
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 0
 --- !u!1 &5082636406884019569
 GameObject:
@@ -126,7 +126,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1055507575
-  m_SortingLayer: 2
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 0130bce532e06e648bf18fe162a5beee, type: 3}
   m_Color: {r: 0.07333569, g: 0.09180682, b: 0.09433961, a: 0.5529412}
