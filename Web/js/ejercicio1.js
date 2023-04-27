@@ -13,7 +13,7 @@ function char_sin_repetir(string){
 
     for(let cha of string){
         if(dict[cha] ==1){
-            return cha
+            return cha;
         }
     }
 }
@@ -78,8 +78,7 @@ function MCD(a,b){
         a = b;
         b = temp;
     }
-
-
+    return a;
 }
 
 function hackspeech(string){
@@ -153,6 +152,91 @@ function palindromo(string){
 
 }
 
+function orden_alfabetico(list_string){
+    let listaOrdenada = [];
+    while (list_string.length > 0) {
+      let menor = list_string[0];
+      for (let i = 1; i < list_string.length; i++) {
+        if (list_string[i] < menor) {
+          menor = list_string[i];
+        }
+      }
+      listaOrdenada.push(menor);
+      list_string.splice(list_string.indexOf(menor), 1);
+    }
+    return listaOrdenada;
+}
+
+function mediana_moda(list_num){
+    let moda = repiticiones(list_num);
+    let list_num_ord = bubble_sort(list_num);
+    if(list_num_ord.length % 2 == 0){
+        let num1 =list_num_ord[(list_num_ord.length/2)-1];
+        let num2 = list_num_ord[(list_num_ord.length/2)];
+        let mediana = (num1 + num2)/2
+        return("la moda es " +moda+"\nmediana es "+mediana);
+    }
+    else{
+        return("la moda es " +moda+"\nmediana es "+list_num_ord[(list_num_ord.length-1)/2]);
+    }
+    
+}
+
+function repiticiones(list){
+    const contador =
+    {
+
+    }
+    let max = 0;
+    for(let i of list){
+        contador[i] =(contador[i] || 0) + 1;
+        if(contador[i] > max){
+            max= contador[i];
+        }
+    }
+    for( let i of list){
+        if(contador[i] === max){
+            return i;
+        }
+    }
+}
+
+function potencia_de_2(num){
+   let si_pot2 = false;
+   while (num > 1){
+        if(num % 2 == 0){
+            num = num/2;
+            si_pot2 = true;
+        }
+        else{
+            si_pot2 = false;
+            break;
+        }
+   }
+   if(si_pot2){
+    return si_pot2;
+   }
+   else{
+    return si_pot2;
+   }
+}
+
+function bubble_sort_invertido(list_num){
+    const long= list_num.length - 1;
+    for(let i = 0; i < long; i++){
+        for(let j = 0; j< long; j++){
+            if(list_num[j] < list_num[j+1]){
+                let temp = list_num[j];
+                list_num[j] = list_num[j+1]
+                list_num[j+1] = temp
+            }
+        }
+    }
+    return list_num;
+}
+console.log(bubble_sort_invertido([1,8,2,7,6]));
+console.log(mediana_moda([12,10,9,12,11,12,8,12,5,7,2,3]));
+
 console.log("3.1 Funcion que modifique el arreglo del argumento");
 console.log(invertido([1, 2, 3, 4, 5]));
 
@@ -160,4 +244,4 @@ console.log(hackspeech("Javascript es divertido"));
 
 console.log(fatorizacion(12));
 
-palindromo("oro")
+palindromo("oro");
