@@ -1,6 +1,6 @@
 console.log("hello world");
 //no var es malo
-//funcion 1
+//funcion 1 string sin repetir
 function char_sin_repetir(string){
     const dict =
     {
@@ -18,7 +18,7 @@ function char_sin_repetir(string){
     }
 }
 
-//funcion 2
+//funcion 2 bubble_sort
 function bubble_sort(list_num){
     const long= list_num.length - 1;
     for(let i = 0; i < long; i++){
@@ -33,7 +33,7 @@ function bubble_sort(list_num){
     return list_num;
 }
 
-//funcion 3.0
+//funcion 3.0 invertir lista
 function invertido(list){
     let list_new=[];
     const len = list.length -1;
@@ -43,7 +43,7 @@ function invertido(list){
     return list_new;
 }
 
-//funcion 3.1
+//funcion 3.1 invertir de la lista pero usando solo la del argumento
 function invertido2(list){
     let n = list.length;
     for (let i = 0; i < n / 2; i++) {
@@ -52,6 +52,7 @@ function invertido2(list){
     return list
 }
 
+//funcion 4 poner mayuscula en la primera letra de cada palabra
 function mayuscula(string){
     let new_string = [];
     new_string.push(string[0].toUpperCase());
@@ -71,6 +72,7 @@ function mayuscula(string){
     return new_string.join("");
 }
 
+//funcion 5 maximo comun divisor
 function MCD(a,b){
     let temp = 0;
     while(b !== 0){
@@ -81,6 +83,7 @@ function MCD(a,b){
     return a;
 }
 
+//funcion 6 traduccion de un string a hackspeech
 function hackspeech(string){
     const cambio ={
         "a": "4",
@@ -105,6 +108,7 @@ function hackspeech(string){
     return new_string;
 }
 
+//funcion 7 factorizacion de un numero
 function fatorizacion(n){
     let factores = [];
     for(let i = n; i > 0; i--){
@@ -115,6 +119,7 @@ function fatorizacion(n){
     return factores;
 }
 
+//funcion 8 sin duplicados
 function quitar_duplicados(list){
     const new_list = [];
     for(let i = 0; i<list.length; i++){
@@ -125,6 +130,7 @@ function quitar_duplicados(list){
     return new_list;
 }
 
+//funcion 9 el string mas pequeño de la lista 
 function min_list(list_string){
     let minimo = 0;
     for(let i = 0; i <list_string.length; i++){
@@ -138,6 +144,7 @@ function min_list(list_string){
     return minimo;
 }
 
+//funcion 10 palindromo
 function palindromo(string){
     let comparacion = string;
     comparacion_list = comparacion.split('');
@@ -152,6 +159,7 @@ function palindromo(string){
 
 }
 
+//funcion 11 ordena una lista de string en orden alfabetico
 function orden_alfabetico(list_string){
     let listaOrdenada = [];
     while (list_string.length > 0) {
@@ -167,6 +175,7 @@ function orden_alfabetico(list_string){
     return listaOrdenada;
 }
 
+//funcion 12 saca la media y la moda de una lista de numeros
 function mediana_moda(list_num){
     let moda = repiticiones(list_num);
     let list_num_ord = bubble_sort(list_num);
@@ -182,6 +191,7 @@ function mediana_moda(list_num){
     
 }
 
+//funcion 13 saca el mayor repeticion de un elemento en una lista
 function repiticiones(list){
     const contador =
     {
@@ -201,6 +211,7 @@ function repiticiones(list){
     }
 }
 
+//funcion 14 saber si es una potencia de 2
 function potencia_de_2(num){
    let si_pot2 = false;
    while (num > 1){
@@ -221,6 +232,7 @@ function potencia_de_2(num){
    }
 }
 
+//funcion 15 bubble_sort inverso
 function bubble_sort_invertido(list_num){
     const long= list_num.length - 1;
     for(let i = 0; i < long; i++){
@@ -234,14 +246,38 @@ function bubble_sort_invertido(list_num){
     }
     return list_num;
 }
-console.log(bubble_sort_invertido([1,8,2,7,6]));
-console.log(mediana_moda([12,10,9,12,11,12,8,12,5,7,2,3]));
 
-console.log("3.1 Funcion que modifique el arreglo del argumento");
-console.log(invertido([1, 2, 3, 4, 5]));
+//desmotracion de que funciona las funciones
 
-console.log(hackspeech("Javascript es divertido"));
-
+console.log("funcion 1");
+console.log(char_sin_repetir("abacddbec"));
+console.log("funcion 2");
+console.log(bubble_sort([5,4,3,2,8,9,1]));
+console.log("funcion 3.0");
+console.log(invertido([1,2,3,4,5,6,7,8,9]));
+console.log("funcion 3.1");
+console.log(invertido2([1,2,3,4,5,6,7,8,9]));
+console.log("funcion 4");
+console.log(mayuscula("hola hoy es un dia bonito"));
+console.log("funcion 5");
+console.log(MCD(16,28));
+console.log("funcion 6");
+console.log(hackspeech("Javascript es divertdisimo"));
+console.log("funcion 7");
 console.log(fatorizacion(12));
-
-palindromo("oro");
+console.log("funcion 8");
+console.log(quitar_duplicados([1,2,3,4,5,6,7,8,9,1,2,3,4,2,5]));
+console.log("funcion 9");
+console.log(min_list(["hola","hoy","es","un","dia","bonito"]));
+console.log("funcion 10");
+palindromo("anitalavalatina");
+console.log("funcion 11");
+console.log(orden_alfabetico(["hola","chara","estefana","un","dia","ara"]));
+console.log("funcion 12");
+console.log(mediana_moda([1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]));
+console.log("funcion 13");
+console.log(repiticiones([1,1,1,1,2,3,4,5,6]));
+console.log("funcion 14");
+console.log(potencia_de_2(16));
+console.log("funcion 15");
+console.log(bubble_sort_invertido([1,2,3,4,5,6,7,8,9]));
