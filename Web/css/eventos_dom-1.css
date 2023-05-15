@@ -1,0 +1,34 @@
+*{
+    font-family:'Times New Roman', Times, serif;
+}
+
+.container{
+    padding: 10px;
+    border-bottom: 1px solid black;
+}
+
+table, td{
+    border: 1px solid black;
+}
+
+body {
+    margin:15px;
+    padding: 2%;
+    background-color: rgba(0, 0, 0, 0.958);
+    color: whitesmoke;
+}
+
+.cod{
+    font-weight: 500;
+    color: #9706a7;
+    text-shadow: 0 0 5px #28043e6d,
+    0 0 25px #f403e0, 
+    0 0 50px #0e010d,
+    0 0 100px #710665b6;
+}
+
+table, td{
+    border: 1px solid rgb(255, 255, 255);
+    border-collapse: collapse;
+    margin: 5%;
+}
