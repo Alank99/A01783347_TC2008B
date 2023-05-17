@@ -1,0 +1,19 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+
+.neon{
+    font-weight: 500;
+    color: #d79bde;
+    text-shadow: 0 0 5px #c707ed,
+    0 0 25px #f403e0, 
+    0 0 50px #0a5d9d,
+    0 0 100px #21e8da;
+    letter-spacing: 5px;
+    cursor: pointer;
+    transition: 1s;
+}
