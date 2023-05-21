@@ -4,7 +4,7 @@ import express from 'express'
 import fs from 'fs'
 
 const app = express()
-const port = 3000
+const port = 5000
 
 app.use(express.json())
 app.use(express.static('./public'))
@@ -42,6 +42,15 @@ app.get('/api/greeting/:name/:surname', (req, res)=>{
         res.send('Hello!')
 })
 
+app.get('/api/json_test', (req, res)=>{
+    res.json(
+        {
+            name: "Copilot", surname: "Hernandez"
+        })
+})
+
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
 })
+
+const response_json = await fetch('/api/json_test')

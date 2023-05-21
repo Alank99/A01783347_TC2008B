@@ -5,7 +5,7 @@
   "type": "module",
   "main": "appi.js",
   "scripts": {
-    "start": "node appi.js",
+    "start": "nodemon appi.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
